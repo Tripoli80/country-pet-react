@@ -1,0 +1,13 @@
+{
+  "files": {
+    "main.css": "/country-pet-react/static/css/main.412fc565.css",
+    "main.js": "/country-pet-react/static/js/main.b3035964.js",
+    "index.html": "/country-pet-react/index.html",
+    "main.412fc565.css.map": "/country-pet-react/static/css/main.412fc565.css.map",
+    "main.b3035964.js.map": "/country-pet-react/static/js/main.b3035964.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.412fc565.css",
+    "static/js/main.b3035964.js"
+  ]
+}
