@@ -20,9 +20,9 @@ export const CountrySearch = () => {
     if (!region.length) return;
 
     const fetchCountriesByRegion = async () => {
-        setCountries([]);
-        setIsLoading(true);
-    
+      setCountries([]);
+      setIsLoading(true);
+
       const data = await fetchByRegion(region);
       setCountries(data);
       setIsLoading(false);
@@ -51,7 +51,7 @@ export const CountrySearch = () => {
           params={querySearch.get('query')}
         />
         {isLoading && <Loader />}
-        {countries.length>0 && <CountryList countries={countries} />}
+        {countries.length > 0 && <CountryList countries={countries} />}
       </Container>
     </Section>
   );
